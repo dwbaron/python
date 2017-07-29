@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
     # initial values of theta:
     # [3, 3, ... , 3]
-    theta = np.ones(10) * 3
+    theta = np.ones(10) * 1
 
     # target cost function: squared error
     def t(x, y, theta):
